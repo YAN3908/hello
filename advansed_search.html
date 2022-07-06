@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Search</title>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+    <header>
+        <div class="container">
+          <div>
+              <div style="position: relative">
+                  <a href="search.html">
+                    <img style="height: 45px" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+                  </a>
+                  <div style="  position: absolute; top: 40px; right: -76px; font-size: 13px; color:blue ">
+                      <span translate="no">расширенный поиск</span>
+                  </div>
+              </div>
+          </div>
+        <div id="centerImage">
+          <a href="search.html"> поиск </a>
+          <a href="image_search.html"> поиск рисунка </a>
+        </div>
+        </div>
+    </header>
+
+        <h2 style="width: 660px; display: inline-block">найти страницы</h2>
+        <label>Как это работает в обычном поиске</label>
+        <form action="https://google.com/search">
+            <label class="indent_before_form"> со словами: </label>
+            <input  type="text" name="as_q" required > <label> Введите ключевые слова: Иван Федорович Крузенштерн </label><br><br>
+            <label class="indent_before_form"> со словосочетанием: </label>
+            <input type="text" name="as_epq"><label> Заключите словосочетание в кавычки: "книга Иван Крузенштерн" </label><br><br>
+            <label class="indent_before_form"> с любым из этих слов: </label>
+            <input type="text" name="as_oq"><label> Вставьте оператор OR между словами: человек OR пароход </label><br><br>
+            <label class="indent_before_form"> без слов: </label>
+            <input type="text" name="as_eq"><label> Поставьте знак минуса перед словами: -пароход, -"книга о пароходе" </label><br><br>
+            <input  type="submit" value="расширенный поиск">
+        </form>
+
+    </body>
+</html>
