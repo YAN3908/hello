@@ -1,0 +1,6 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="Language injection/Inject language or reference" />
+    <ignoreAction name="Other/Create new scratch file from selection" />
+  </component>
+</application>
